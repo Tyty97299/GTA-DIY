@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTA-V Style City Sandbox (Mini Clone)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hud">
+      <div class="brand">San Andreas Metro</div>
+      <div class="stats">
+        <div>Speed: <span id="speed">0</span> mph</div>
+        <div>Heat: <span id="heat">0</span> ★</div>
+        <div>Cash: <span id="cash">$2,450</span></div>
+      </div>
+      <div class="controls">
+        <span>WASD / Arrow Keys</span>
+        <span>Space = Drift</span>
+      </div>
+    </div>
+    <canvas id="game" width="1200" height="720"></canvas>
+    <div class="legend">
+      <div><span class="dot player"></span> You</div>
+      <div><span class="dot traffic"></span> Traffic</div>
+      <div><span class="dot police"></span> Police</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
